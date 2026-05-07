@@ -1,91 +1,52 @@
-# Markdown Notes
+# 🚀 Markdown Note App
 
-A clean and minimal note taking app with live Markdown preview, built entirely with vanilla HTML, CSS, and JavaScript. No frameworks, no build tools, no dependencies. Just open the file in your browser and start writing.
+Minimal note taking app with live Markdown preview using vanilla JavaScript. Clean UI with real-time rendering and local storage.
 
-Notes are saved automatically to your browser local storage, so they persist even after you close the tab.
+![Project Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-## Features
+---
 
-- Write notes using Markdown syntax with instant live preview
-- All notes saved to browser local storage automatically
-- Search through your notes by title or content
-- Dark theme designed for comfortable use during long writing sessions
-- Tab key support inside the editor for indentation
-- Character counter and save timestamp in the status bar
-- Zero dependencies, works offline, no server required
+## 🌟 Features
 
-## How It Works
+- [x] Live Markdown preview in real-time\n- [x] Auto-save to browser LocalStorage\n- [x] Dark mode support
 
-```mermaid
-flowchart TD
-    A[User Creates Note] --> B[Note Object Created with ID and Timestamp]
-    B --> C[Note Stored in LocalStorage Array]
-    C --> D[Sidebar List Re-renders]
-    E[User Types in Editor] --> F[Content Auto-saved to LocalStorage]
-    F --> G[Markdown Parsed by marked.js]
-    G --> H[Preview Pane Updates in Real Time]
-    I[User Searches] --> J[Filter Notes by Title and Content]
-    J --> D
-```
+## 🛠️ Tech Stack
 
-## Getting Started
+- **HTML**\n- **CSS**\n- **JavaScript**\n- **Marked.js**
 
-No installation needed. Just clone and open:
+---
 
-```bash
-git clone https://github.com/Darkshaz/markdown-note-app.git
-cd markdown-note-app
-```
+## 🚀 How to Download & Run
 
-Then open `index.html` in any modern browser. That is it.
+Follow these steps to set up the project on your local machine.
 
-If you want a local development server:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aliffhafizirosdi/markdown-note-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd markdown-note-app
+   ```
+3. Open `index.html` in your browser to start taking notes.
 
-```bash
-npx serve .
-```
+---
 
-## Usage
+## 💻 Code Structure
 
-1. Click the **+** button in the sidebar to create a new note
-2. Give your note a title in the input field at the top
-3. Start writing Markdown in the editor area
-4. Click **Preview** to see your formatted note
-5. Click **Edit** to go back to writing mode
-6. Use the search bar to find specific notes quickly
-7. Click **Delete** to remove a note you no longer need
+A quick overview of the main files in this repository:
 
-## Supported Markdown
+- `index.html` / `app.py` / `server.js` - Entry point of the application
+- `style.css` - Main stylesheet
+- `app.js` / `scripts/` - Main logic and interactions
 
-The app supports standard Markdown syntax including:
+---
 
-- Headings (h1 through h6)
-- Bold, italic, and strikethrough text
-- Ordered and unordered lists
-- Code blocks with syntax highlighting
-- Blockquotes
-- Tables
-- Links and images
+## 👤 Author
 
-## Tech Stack
+**Aliff Hafizi**
+- Website: [aliffhafizi.my](https://www.aliffhafizi.my)
+- GitHub: [@Aliffhafizirosdi](https://github.com/Aliffhafizirosdi)
 
-- **HTML5** for document structure
-- **CSS3** with CSS Grid and Flexbox for layout
-- **Vanilla JavaScript** (ES6 classes) for app logic
-- **marked.js** for Markdown parsing
-- **localStorage** for data persistence
-
-## File Structure
-
-```
-markdown-note-app/
-    index.html      Main HTML file
-    style.css       All styling
-    app.js          Application logic
-    marked.min.js   Markdown parser library
-    README.md       This file
-```
-
-## License
-
-MIT License
+*If you found this project helpful, please consider giving it a ⭐ on GitHub!*
